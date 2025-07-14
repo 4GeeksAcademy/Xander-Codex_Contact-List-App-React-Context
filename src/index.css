@@ -1,0 +1,72 @@
+.contact-card {
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.contact-avatar {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.contact-info {
+  flex-grow: 1;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: 1rem;
+}
+
+.TrashDelete {
+  border: none;
+  background: none;
+  color: black;
+}
+
+.TrashDelete:hover {
+  color: rgb(88, 88, 88);
+}
+
+.EditPencil i {
+  color: black;
+}
+
+.EditPencil i:hover {
+  color: rgb(88, 88, 88);
+}
+
+.icons {
+  margin-right: 10px;
+}
+
+.custom-link {
+  text-decoration: none;
+  color: #0d6efd;
+}
+
+.custom-link:hover {
+  text-decoration: underline;
+}
+
+.FormWitdh {
+  width: 600px;
+}
+
+.contact-card-container {
+  margin-top: 5px;
+}
+
+.modal-body {
+  justify-content: center;
+}
